@@ -7,7 +7,7 @@ var app = express();
 app.use(stormpath.init(app, 
 	{
 		apiKeyId: process.env.STORMPATH_API_KEY_ID,
-		apiKeySecret: process.env.STORMPATH_API_SECRET_KEY,
+		apiKeySecret: process.env.STORMPATH_API_KEY_SECRET,
 		secretKey: process.env.STORMPATH_SECRET_KEY,
 		application: process.env.STORMPATH_URL,
 		//environment variables read from heroku config, once added to your heroku project
