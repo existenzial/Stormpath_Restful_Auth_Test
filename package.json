@@ -1,0 +1,31 @@
+{
+  "name": "stormpath_restful_auth_test",
+  "version": "1.0.0",
+  "description": "an authentication test app with express and stormpath",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/existenzial/Stormpath_Restful_Auth_Test.git"
+  },
+  "keywords": [
+    "express",
+    "stormpath",
+    "node",
+    "rest",
+    "restful",
+    "authentication"
+  ],
+  "author": "Jazz Lyles <ripley36706@gmail.com> (https://github.com/existenzial)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/existenzial/Stormpath_Restful_Auth_Test/issues"
+  },
+  "homepage": "https://github.com/existenzial/Stormpath_Restful_Auth_Test#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-stormpath": "^2.4.0"
+  }
+}
